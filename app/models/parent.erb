@@ -1,0 +1,12 @@
+<h3>The list of families by parent is</h3>
+
+<ul>
+  <% @parents.each do |p| %>
+    <li><%= p.name %></li>
+    <ul>
+      <% p.children.each do |c| %>
+        <li><%= c.name %></li>
+      <% end %>
+    </ul>
+  <% end %>
+</ul>
