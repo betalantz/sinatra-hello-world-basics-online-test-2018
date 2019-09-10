@@ -18,3 +18,5 @@ group :test do
 gem "sinatra-activerecord", "~> 2.0"
 
 gem "sqlite3", "~> 1.4"
+
+gem 'activerecord', '~> 5.0'
