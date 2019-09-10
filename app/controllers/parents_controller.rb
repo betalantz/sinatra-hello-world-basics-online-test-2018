@@ -1,7 +1,8 @@
 class ParentsController < ApplicationController
 
     get '/parents' do
-       erb :parents
+        @parents = Parent.all
+        erb :parent
     end
   
 end
