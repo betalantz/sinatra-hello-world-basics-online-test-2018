@@ -15,3 +15,6 @@ group :test do
       gem 'capybara'
       gem 'rack-test'
     end
+gem "sinatra-activerecord", "~> 2.0"
+
+gem "sqlite3", "~> 1.4"

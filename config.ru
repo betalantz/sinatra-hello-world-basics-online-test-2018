@@ -1,3 +1,5 @@
 require './config/environment'
 
-run App
+use ParentsController
+use ChildrenController
+run ApplicationController
